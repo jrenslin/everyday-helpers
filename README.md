@@ -25,6 +25,10 @@ This script generates and displayes short rundowns of the contents of a folder i
 
 Shortcut for taking a screenshot of a given screen region and running OCR over it.
 
+### `splitMassiveFolder.sh`
+
+This script splits a large directory by moving a its files into numbered subdirecties of a roughly equal number of files.
+
 ### `increase_brightness.sh` and `reduce_brightness.sh`
 
 Scripts for increasing and decreasing screen brightness by ten percent. Written because `xbacklight` did not work on my old screen.
