@@ -25,6 +25,10 @@ This script generates and displayes short rundowns of the contents of a folder i
 
 Shortcut for taking a screenshot of a given screen region and running OCR over it.
 
+### `ocrPDF.sh`
+
+This is a wrapper around [`ocrmypdf`](https://github.com/jbarlow83/OCRmyPDF). It prompts the user to enter PDF metadata in `dialog` input boxes and then inserts these together with the OCRed text into the document.
+
 ### `splitMassiveFolder.sh`
 
 This script splits a large directory by moving a its files into numbered subdirecties of a roughly equal number of files.
