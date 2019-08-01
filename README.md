@@ -1,7 +1,7 @@
 Bash scripts for everyday life
 ==============================
 
-This repository contains small shell scripts I wrote for everyday tasks. The scripts themselves can be found in the `scripts` directory, from which I source them into my zsh.
+This repository contains small shell scripts written for everyday tasks. The scripts themselves can be found in the `scripts` directory, from which they can be sourced into `zsh`.
 
 ```
 pathdirs=(
@@ -35,7 +35,7 @@ This script splits a large directory by moving a its files into numbered subdire
 
 ### `increase_brightness.sh` and `reduce_brightness.sh`
 
-Scripts for increasing and decreasing screen brightness by ten percent. Written because `xbacklight` did not work on my old screen.
+Scripts for increasing and decreasing screen brightness by ten percent. Written because `xbacklight` did not work on an old screen.
 
 ### `tmux_mail.sh`, `tmux_main.sh` and `tmux_music.sh`
 
