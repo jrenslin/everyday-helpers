@@ -44,3 +44,8 @@ These scripts open pre-defined tmux sessions.
 ### `jsonifyString.php`
 
 This script splits an input string into an array (based on a provided separator) and returns the array JSON-encoded. Written in PHP.
+
+Install Script
+--------------
+
+Using the script `install-helpers.sh`, a folder `installed_scripts` can be created, into which selected scripts are symlinked. By linking this subdirectory, unneeded scripts can be prevented from cluttering your shell.
