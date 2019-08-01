@@ -40,3 +40,7 @@ Scripts for increasing and decreasing screen brightness by ten percent. Written 
 ### `tmux_mail.sh`, `tmux_main.sh` and `tmux_music.sh`
 
 These scripts open pre-defined tmux sessions.
+
+### `jsonifyString.php`
+
+This script splits an input string into an array (based on a provided separator) and returns the array JSON-encoded. Written in PHP.
