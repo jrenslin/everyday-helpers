@@ -41,9 +41,9 @@ Scripts for increasing and decreasing screen brightness by ten percent. Written 
 
 These scripts open pre-defined tmux sessions.
 
-### `jsonifyString.php`
+### `jsonifyString.php` and `csvReplaceSeparator.php`
 
-This script splits an input string into an array (based on a provided separator) and returns the array JSON-encoded. Written in PHP.
+`jsonifyString.php` splits an input string into an array (based on a provided separator) and returns the array JSON-encoded. `csvReplaceSeparator.php`, based on the former, replaces the separator in the provided string by another and prints the corrected string. Written in PHP.
 
 Install Script
 --------------
