@@ -142,7 +142,7 @@ FILES_SUM_TOTAL=`find -name "*.*" -type f | wc -l`
 
 # Calculate number of files by type
 FILES_SUM_IMAGES=$(numberFolderContents "${FILETYPES_IMAGES[@]}")
-FILES_SUM_TEXT=$(numberFolderContents "${FILETYPES_IMAGES[@]}")
+FILES_SUM_TEXT=$(numberFolderContents "${FILETYPES_TEXT[@]}")
 FILES_SUM_PLAIN_TEXT=$(numberFolderContents "${FILETYPES_PLAIN_TEXT[@]}")
 FILES_SUM_CODE=$(numberFolderContents "${FILETYPES_CODE[@]}")
 FILES_SUM_PDF_EBOOK=$(numberFolderContents "${FILETYPES_PDF_EBOOK[@]}")
