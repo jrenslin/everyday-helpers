@@ -45,6 +45,10 @@ These scripts open pre-defined tmux sessions.
 
 `jsonifyString.php` splits an input string into an array (based on a provided separator) and returns the array JSON-encoded. `csvReplaceSeparator.php`, based on the former, replaces the separator in the provided string by another and prints the corrected string. Written in PHP.
 
+### `removeHistory.sh`
+
+Bash script offering to empty history files or delete thumbnail files from a set of known thumbnail directories.
+
 Install Script
 --------------
 
