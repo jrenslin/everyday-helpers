@@ -1,4 +1,4 @@
-#!/usr/bin/env php7.2
+#!/usr/bin/env php
 <?PHP
 /**
  * Small script for replacing the separator in a line of CSV.
@@ -37,6 +37,7 @@ else $newSeparator = "|"; // Default separator (new) is a whitespace.
 // Improving the input string
 $input = $argv[1];      // Read the input string.
 $input = trim($input);  // Remove unwanted characters from front and end.
+$input = str_replace(PHP_EOL, ", ", $input);  // Remove newlines
 
 while (strpos($input, "  ") !== false) { // Remove double whitespaces.
     $input = str_replace("  ", " ", $input);

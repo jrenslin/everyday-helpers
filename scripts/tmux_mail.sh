@@ -69,7 +69,7 @@ fi
 if [ -x "$(command -v $IRC_COMMAND)" ]; then
     ((WINDOW_COUNTER++))
     tmux new-window -t $SESSION:$WINDOW_COUNTER -n 'IRC'
-    tmux send-keys "$IRC_COMMAND" C-m
+    # tmux send-keys "$IRC_COMMAND" C-m
 fi
 
 # Set default window
